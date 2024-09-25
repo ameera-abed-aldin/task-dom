@@ -102,7 +102,11 @@ const names = [
 ];
 
 // create table with name arr
-let data = "<tbody></tbody>";
+let data = `<thead>
+        <tr>
+          <td>Name</td>
+        </tr>
+      </thead>`;
 
 for (let i = 0; i < names.length; i++) {
   data += `<tr><td> ${names[i]} </td></tr>`;
